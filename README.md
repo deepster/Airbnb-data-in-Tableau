@@ -18,6 +18,22 @@ To understand the makeup of the Airbnb market in NYC.
 
 ###### Questions asked during EDA
 
-1. How do renting prices compare in different locations in NYC
-2. Are certain locations more likely to offer certain room types (private/single room, shared room, entire house)
-3. Which locations are more popular to stay at and how does this effect the price?
+1. How do renting prices compare in different locations in NYC?
+2. Which locations are more popular to stay at and how does this effect the price?
+3. What are some features that contribute to the price of a room?
+
+## Breakdown of Tableau Dashboard
+<img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/dashboard_overview.jpg" width="700" height="475"/>
+
+###### Overview of Dashboard
+Each graph sector is designed to provide some insights into the questions posed above:
+
+1. The NYC map displays the location of each room along with its price in comparison to others
+2. (Bottom Left) Displays the average avaliability, minimum night requirement, and number of reviews of the points selected
+3. (Bottom Middle) Displays the number of each type of room in the selected data
+4. (Bottom Right) Displays the average price breakdown for each room type present in the selected data
+5. (Top Left) The three filters help filter by Price, Borough, Number of Reviews 
+
+###### How do renting prices compare in different locations in NYC?
+
+

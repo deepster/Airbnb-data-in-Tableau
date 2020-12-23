@@ -1,7 +1,7 @@
 # Tableau-Test-Run
 Experimenting using Tableau for exploratory data analysis (EDA)
 ## About the Dataset
-This dataset, "New York City Airbnb Open Data", was taken from kaggle.com. The features from the dataset that were the main focus during EDA were Price, Location, Room Type, Number of Reviews, Availability, and Minimum Nights.
+This dataset, "New York City Airbnb Open Data", was taken from https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data. The features from the dataset that were the main focus during EDA were Price, Location, Room Type, Number of Reviews, Availability, and Minimum Nights.
 
 ###### Breakdown of each Feature
 | Feature                | Description/Notes |
@@ -32,8 +32,9 @@ Each graph sector is designed to provide some insights into the questions posed 
 2. (Bottom Left) Displays the average avaliability, minimum night requirement, and number of reviews of the points selected
 3. (Bottom Middle) Displays the number of each type of room in the selected data
 4. (Bottom Right) Displays the average price breakdown for each room type present in the selected data
-5. (Top Left) The three filters help filter by Price, Borough, Number of Reviews 
+5. (Top Left) The three filters help filter by Price, Borough, and Number of Reviews 
 
+<img src="/images/output/video1.gif"/>
 ###### How do renting prices compare in different locations in NYC?
 
 

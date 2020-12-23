@@ -39,9 +39,13 @@ Each graph sector is designed to provide some insights into the questions posed 
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/dashborad_overview_gif.gif"/>
 
 ###### How do renting prices compare in different locations in NYC?
+<img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/price_by_location.jpg" width="700" height="475"/>
 
 ###### Which locations are more popular to stay at and how does this effect the price?
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/Popularity_by_location.jpg" width="750" height="350"/>
 
-By narrowing the "Number of Reviews" filter, we can get a better idea of where the rooms with the most reviews on average are located. I roughly using the average number of reviews given as a measure of popuarity (where the more reviews a listing has the more popular it is). We can see that there doesn't seem to be a pattern in where the "most popular" listing are located. 
+By narrowing the "Number of Reviews" filter, we can get a better idea of where the rooms with the most reviews on average are located. I roughly using the average number of reviews given as a measure of popuarity (where the more reviews a listing has the more popular it is). 
+- We can see that there doesn't seem to be a pattern in where the "most popular" listing are located. 
+- The "most popular" listing and the most expensive listings don't seem to overlap, meaning the "more popular" a listing doesn't mean the more expensive
+
 

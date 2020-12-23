@@ -1,5 +1,7 @@
 # Tableau-Test-Run
 Experimenting using Tableau for exploratory data analysis (EDA)
+
+Tableau Dashboard can be found at: https://public.tableau.com/profile/deepster#!/
 ## About the Dataset
 This dataset, "New York City Airbnb Open Data", was taken from https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data. The features from the dataset that were the main focus during EDA were Price, Location, Room Type, Number of Reviews, Availability, and Minimum Nights.
 

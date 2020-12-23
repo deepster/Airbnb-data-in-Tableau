@@ -31,16 +31,25 @@ To understand the makeup of the Airbnb market in NYC.
 Each graph sector is designed to provide some insights into the questions posed above:
 
 1. (Top Left) The three filters help filter by Price, Borough, and Number of Reviews
-2. The NYC map displays the location of each room along with its price in comparison to others
+2. The NYC map displays the location of the listings along with their prices in comparison to other listings
 3. (Bottom Left) Displays the average avaliability, minimum night requirement, and number of reviews of the points selected
 4. (Bottom Middle) Displays the total amount of each room type in the selected data
 5. (Bottom Right) Displays the average price breakdown for each room type present in the selected data
  
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/dashborad_overview_gif.gif"/>
 
+Hovering over any point, gives you information on the location of the listing, its price, and updates the graphs below to show more information about that listing.
+
+## Findings from EDA
+
 ###### How do renting prices compare in different locations in NYC?
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/price_by_location.jpg" width="700" height="475"/>
 
+Adjusting the price filter, we can see where the more expensive listing are located.
+- it looks like the more expensive listings are located in Manhattan 
+- it looks liked all of these listings are for entire houses so the price could be affected by the type of room for rent
+ - future analysis/next steps: could look at keeping the room types constant and see if there are any trends in price vs location
+ 
 ###### Which locations are more popular to stay at and how does this effect the price?
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/Popularity_by_location.jpg" width="750" height="350"/>
 

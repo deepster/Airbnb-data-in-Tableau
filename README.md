@@ -28,13 +28,18 @@ To understand the makeup of the Airbnb market in NYC.
 ###### Overview of Dashboard
 Each graph sector is designed to provide some insights into the questions posed above:
 
-1. The NYC map displays the location of each room along with its price in comparison to others
-2. (Bottom Left) Displays the average avaliability, minimum night requirement, and number of reviews of the points selected
-3. (Bottom Middle) Displays the number of each type of room in the selected data
-4. (Bottom Right) Displays the average price breakdown for each room type present in the selected data
-5. (Top Left) The three filters help filter by Price, Borough, and Number of Reviews 
+1. (Top Left) The three filters help filter by Price, Borough, and Number of Reviews
+2. The NYC map displays the location of each room along with its price in comparison to others
+3. (Bottom Left) Displays the average avaliability, minimum night requirement, and number of reviews of the points selected
+4. (Bottom Middle) Displays the total amount of each room type in the selected data
+5. (Bottom Right) Displays the average price breakdown for each room type present in the selected data
+ 
+<img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/dashborad_overview_gif.gif"/>
 
-<img src="/images/output/video1.gif"/>
 ###### How do renting prices compare in different locations in NYC?
 
+###### Which locations are more popular to stay at and how does this effect the price?
+<img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/Popularity_by_location.jpg" width="750" height="350"/>
+
+By narrowing the "Number of Reviews" filter, we can get a better idea of where the rooms with the most reviews on average are located. I roughly using the average number of reviews given as a measure of popuarity (where the more reviews a listing has the more popular it is). We can see that there doesn't seem to be a pattern in where the "most popular" listing are located. 
 

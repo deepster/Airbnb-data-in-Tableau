@@ -41,7 +41,7 @@ Hovering over any point gives you information on the location of the listing, it
 
 ## Insights from exploring Airbnb data from New York City
 
-###### Manhattan is the most expensive locations in NYC (I guess it goes without saying)?
+###### Manhattan is the most expensive locations in NYC
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/price_by_location.jpg" width="700" height="475"/>
 
 Adjusting the price filter, we can see where the more expensive listing are located.

@@ -64,7 +64,8 @@ Future enhancement: enable multiple filters to visualize & reason the effect of 
 
  ###### Future Analysis/Next Steps
  - keep room type constant to look at trends between location vs. price and popularity vs. price
- - create appropriate displays (scatterplots, bar plots, etc.) to further determine trends  
+ - create more appropriate displays to further determine trends such as the graph displayed below
+ <img src="https://github.com/deepster/Airbnb-data-in-Tableau/blob/main/images/Trellis_graph.jpg" width="700" height="475"/>
 
 
 

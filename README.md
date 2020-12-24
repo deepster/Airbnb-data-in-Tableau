@@ -1,5 +1,6 @@
 # Tableau-Test-Run
-Experimenting using Tableau for exploratory data analysis (EDA)
+Experimenting using Tableau to create a UI for exploratory data analysis (EDA)
+Note: further EDA would need to be done utilizing other visualizations such as scatterplots, bar plots, etc.
 
 Tableau Dashboard can be found at: https://public.tableau.com/profile/deepster#!/
 ## About the Dataset
@@ -38,7 +39,7 @@ Each graph sector is designed to provide some insights into the questions posed 
  
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/dashborad_overview_gif.gif"/>
 
-Hovering over any point, gives you information on the location of the listing, its price, and updates the graphs below to show more information about that listing.
+Hovering over any point gives you information on the location of the listing, its price, and updates the graphs below to show more information about that listing.
 
 ## Findings from EDA
 
@@ -46,8 +47,8 @@ Hovering over any point, gives you information on the location of the listing, i
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/price_by_location.jpg" width="700" height="475"/>
 
 Adjusting the price filter, we can see where the more expensive listing are located.
-- it looks like the more expensive listings are located in Manhattan 
-- it looks liked all of these listings are for entire houses so the price could be affected by the type of room for rent
+- In general the more expensive listings are located in Manhattan 
+- All of these listings are for entire houses so the price could be affected by the type of room for rent
  - future analysis/next steps: could look at keeping the room types constant and see if there are any trends in price vs location
  
 ###### Which locations are more popular to stay at and how does this effect the price?
@@ -56,5 +57,17 @@ Adjusting the price filter, we can see where the more expensive listing are loca
 By narrowing the "Number of Reviews" filter, we can get a better idea of where the rooms with the most reviews on average are located. I roughly using the average number of reviews given as a measure of popuarity (where the more reviews a listing has the more popular it is). 
 - We can see that there doesn't seem to be a pattern in where the "most popular" listing are located. 
 - The "most popular" listing and the most expensive listings don't seem to overlap, meaning the "more popular" a listing doesn't mean the more expensive
+  - The room type being offered could also be affecting this lack of overlap.
+  
+###### What are some features that contribute to the price of a room?
+<img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/price_factors.jpg" width="700" height="475"/>
+
+-Looking at the minimum night requirement and avaliability, it seems they don't have much affect on price (comparing this snapshot with the snapshot obtained to answer "How do renting prices compare in different locations in NYC?")
+- Room type does affect the price of the rooms.
+
+ ###### Future Analysis/Next Steps
+ - keep room type constant to look at trends between location vs. price and popularity vs. price
+ - create appropriate displays (scatterplots, bar plots, etc.) to    
+
 
 

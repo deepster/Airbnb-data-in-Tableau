@@ -22,7 +22,7 @@ To understand the makeup of the Airbnb market in NYC.
 ###### Questions asked during EDA
 
 1. How do renting prices compare in different locations in NYC?
-2. Which locations are more popular to stay at and how does this effect the price?
+2. Which locations are more popular to stay at and how does this affect the price?
 3. What are some features that contribute to the price of a room?
 
 ## Breakdown of Tableau Dashboard

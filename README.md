@@ -67,7 +67,7 @@ By narrowing the "Number of Reviews" filter, we can get a better idea of where t
 
  ###### Future Analysis/Next Steps
  - keep room type constant to look at trends between location vs. price and popularity vs. price
- - create appropriate displays (scatterplots, bar plots, etc.) to    
+ - create appropriate displays (scatterplots, bar plots, etc.) to further determine trends  
 
 
 

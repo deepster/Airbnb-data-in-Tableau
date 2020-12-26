@@ -2,7 +2,7 @@
 
 Tableau Dashboard can be found at: https://public.tableau.com/profile/deepster#!/
 ## About the Dataset
-"New York City Airbnb Open Data" was downloaded from https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data. Exploratory Data Analysis {EDA) was performed using were Price, Location, Room Type, Number of Reviews, Availability, and Minimum Nights.
+"New York City Airbnb Open Data" was downloaded from https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data. Exploratory Data Analysis {EDA) was performed using Price, Location, Room Type, Number of Reviews, Availability, and Minimum Nights.
 
 ###### Breakdown of each Feature
 | Feature                | Description/Notes |
@@ -29,7 +29,7 @@ Use Tableau to allow exploration of Airbnb market in NYC.
 ###### Overview of Dashboard
 The interactive graph provides insights to the above questions
 
-1. Filter: filters by price, borough, and number of reviews (Top Left)
+1. Filter: filters by price, borough, and number of reviews (Top Right)
 2. NYC map: displays the location of the listing along with its price & range at the location
 3. Sideway bar chart: Displays the average avaliability, minimum night requirement, and the number of reviews at the listed location (Bottom left)
 4. Pie chart: Displays the total amount of each room types in the selected location (Bottom Middle)
@@ -52,9 +52,9 @@ Adjusting the price filter, we can see where the more expensive listing are loca
 
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/Popularity_by_location.jpg" width="750" height="350"/>
 
-Filtering by the "Number of Reviews" you can identify the area where the rooms with the most reviews on average are located. Using the average number of reviews as an approximate measure of popuarity I found favarable hot spots in different borough  
+Filtering by the "Number of Reviews" you can identify the area where the rooms with the most reviews on average are located. Using the average number of reviews as an approximate measure of popuarity, I found favorable hot spots in different boroughs  
 
-Future enhancement: enable multiple filters to visualize & reason the effect of price & availability to the selection of the popular location and comparison between the popular location  
+Future enhancement: enable multiple filters to visualize & reason for the effect of price & availability on the selection of the popular location and comparison between the popular locations  
   
 ###### What are some features that contribute to the price of a room?
 <img src="https://github.com/deepster/Tableau-Test-Run/blob/main/images/price_factors.jpg" width="700" height="475"/>
